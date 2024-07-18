@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(33, 88, 17);
+  display: flex;
+  justify-content: center;
+
+  button {
+    color: #ebebeb;
+    background-color: transparent;
+  }
+}
+
+body {
+  background: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  width: 18rem;
+  margin-inline: auto;
+
+  .card-title {
+    text-transform: capitalize;
+  }
+
+  button {
+    border: none;
+    background-color: rgb(33, 88, 17);
+
+    &:hover {
+      background-color: rgb(12, 67, 00);
+    }
+  }
+}
+
+footer{
+  text-align: center;
+}
